@@ -1,25 +1,158 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mood Quran MVP</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Quran Jar - Find Spiritual Comfort</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #fff;
+      color: #222;
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      margin-top: 10vh;
+      text-align: center;
+      width: 100%;
+      max-width: 420px;
+    }
+    h1 {
+      font-weight: 400;
+      font-size: 2rem;
+      margin-bottom: 0.5em;
+    }
+    select, button {
+      padding: 0.8em 1em;
+      font-size: 1rem;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      outline: none;
+      margin: 0.5em 0;
+      background: #fafafa;
+      transition: border .2s;
+    }
+    select:focus, button:focus {
+      border-color: #4285f4;
+    }
+    button {
+      background: #4285f4;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      margin-top: 1em;
+      font-weight: 500;
+    }
+    .card {
+      background: #f8f9fa;
+      margin-top: 2em;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(60,64,67,.07);
+      padding: 2em 1.5em;
+      font-size: 1.15rem;
+      min-height: 120px;
+      transition: box-shadow .2s;
+    }
+    .verse-ref {
+      display: block;
+      margin-top: 1em;
+      color: #4285f4;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      .container {
+        margin-top: 3vh;
+        max-width: 95vw;
+      }
+      .card {
+        padding: 1em;
+      }
+    }
+  </style>
 </head>
 <body>
-<h1>Read me when I feel…</h1>
-<div class="grid" id="moodGrid"></div>
-
-<div id="card" class="card" style="display:none">
-  <div id="arabic" style="font-size:22px;direction:rtl;text-align:right"></div>
-  <div id="translation" style="margin-top:10px"></div>
-  <div style="margin-top:12px">
-    <button id="nextBtn">Next</button>
-    <button id="saveBtn">Save</button>
-    <button id="shareBtn">Share</button>
+  <div class="container">
+    <h1>Quran Jar</h1>
+    <form id="feeling-form">
+      <label for="feeling">How do you feel?</label>
+      <br>
+      <select id="feeling">
+        <option value="" disabled selected>Select your feeling</option>
+        <option value="sad">Sad</option>
+        <option value="anxious">Anxious</option>
+        <option value="hopeful">Hopeful</option>
+        <option value="grateful">Grateful</option>
+        <option value="angry">Angry</option>
+        <option value="lost">Lost</option>
+        <option value="fearful">Fearful</option>
+        <option value="happy">Happy</option>
+        <option value="seeking-guidance">Seeking Guidance</option>
+      </select>
+      <br>
+      <button type="submit">Show Verse or Hadith</button>
+    </form>
+    <div id="result" class="card" style="display:none;"></div>
   </div>
-</div>
+  <script>
+    // Sample mapping of feelings to verses/hadiths
+    const data = {
+      sad: {
+        text: "So verily, with the hardship, there is relief.",
+        ref: "Quran 94:6"
+      },
+      anxious: {
+        text: "And whoever puts his trust in Allah, then He will suffice him.",
+        ref: "Quran 65:3"
+      },
+      hopeful: {
+        text: "And do not lose hope in the mercy of Allah. Indeed, none despairs of relief from Allah except the disbelieving people.",
+        ref: "Quran 12:87"
+      },
+      grateful: {
+        text: "If you are grateful, I will surely increase your favor upon you.",
+        ref: "Quran 14:7"
+      },
+      angry: {
+        text: "The strong is not the one who overcomes people by his strength, but the strong is the one who controls himself while in anger.",
+        ref: "Hadith - Sahih Bukhari"
+      },
+      lost: {
+        text: "And He found you lost and guided [you].",
+        ref: "Quran 93:7"
+      },
+      fearful: {
+        text: "Do not fear, I am with you, I hear and I see.",
+        ref: "Quran 20:46"
+      },
+      happy: {
+        text: "Say: 'In the bounty of Allah and in His mercy — in that let them rejoice; it is better than what they accumulate.'",
+        ref: "Quran 10:58"
+      },
+      "seeking-guidance": {
+        text: "Guide us to the straight path.",
+        ref: "Quran 1:6"
+      }
+    };
 
-<script src="script.js"></script>
+    document.getElementById('feeling-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const feeling = document.getElementById('feeling').value;
+      const resultDiv = document.getElementById('result');
+      if (data[feeling]) {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = `
+          "${data[feeling].text}"
+          <span class="verse-ref">${data[feeling].ref}</span>
+        `;
+      } else {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = 'Please select a feeling from the list.';
+      }
+    });
+  </script>
 </body>
 </html>
