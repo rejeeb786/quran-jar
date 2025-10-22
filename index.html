@@ -5,7 +5,6 @@
   <title>Serene Verse</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <style>
     :root {
       --bg: #181b1f;
@@ -28,6 +27,7 @@
       min-height: 100vh;
       width: 100vw;
       box-sizing: border-box;
+      overflow-x: hidden;
     }
     body {
       display: flex;
@@ -48,6 +48,7 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      margin-bottom: 7em;
     }
     .topbar {
       width: 100vw;
@@ -93,7 +94,7 @@
     select {
       width: 100%;
       padding: 1em 1.1em;
-      font-size: 1.15em;
+      font-size: 1.07em;
       border-radius: 10px;
       border: none;
       margin-bottom: 1em;
@@ -114,7 +115,7 @@
       border: none;
       background: var(--accent);
       color: #fff;
-      font-size: 1.15em;
+      font-size: 1.07em;
       font-weight: 500;
       cursor: pointer;
       margin-bottom: 2.5em;
@@ -128,22 +129,26 @@
     }
     .card {
       background: var(--card-bg);
-      border-radius: 20px;
-      box-shadow: 0 8px 40px 0 #16181c;
-      padding: 3em 1.7em;
-      margin-top: 2.7em;
-      min-height: 170px;
+      border-radius: 18px;
+      box-shadow: 0 6px 36px 0 #16181c;
+      padding: 2.2em 1.1em 2.1em 1.1em;
+      margin-top: 2.2em;
+      min-height: 110px;
       text-align: left;
       position: relative;
       transition: box-shadow var(--transition), opacity var(--transition), transform var(--transition);
       opacity: 0;
       transform: translateY(20px);
       will-change: opacity, transform;
-      font-size: 1.18rem;
+      font-size: 1.08rem;
       border: 1px solid var(--border);
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
+      margin-bottom: 1.5em;
+      max-height: 350px;
+      overflow-y: auto;
     }
     .card.show {
       opacity: 1;
@@ -151,30 +156,34 @@
     }
     .verse {
       font-family: var(--verse-font);
-      font-size: 1.35em;
-      margin-bottom: 1.2em;
+      font-size: 1.09em;
+      margin-bottom: 1.1em;
       color: var(--text);
-      line-height: 1.7;
+      line-height: 1.45;
       letter-spacing: .01em;
       display: block;
       text-align: center;
-      padding: 1em 0 .5em 0;
+      padding: .7em 0 .3em 0;
       font-style: italic;
+      word-break: break-word;
+      max-width: 96%;
     }
     .verse-ref {
       color: var(--accent);
-      font-size: 1.09em;
+      font-size: 1.01em;
       display: block;
-      margin-bottom: 1.8em;
+      margin-bottom: 1.2em;
       text-align: center;
-      letter-spacing: .02em;
+      letter-spacing: .01em;
+      word-break: break-word;
+      max-width: 97%;
     }
     .tafsir-toggle {
       display: inline-block;
       color: var(--accent);
       background: none;
       border: none;
-      font-size: 1.1em;
+      font-size: 1em;
       cursor: pointer;
       text-decoration: underline;
       margin-bottom: 1em;
@@ -185,15 +194,17 @@
     }
     .tafsir {
       margin-top: 0.8em;
-      font-size: 1.08em;
+      font-size: .97em;
       color: #c7d5e0;
       background: #22242a;
-      padding: 1.2em 1em;
-      border-radius: 14px;
+      padding: 1em .9em;
+      border-radius: 12px;
       display: none;
       line-height: 1.5;
       text-align: center;
       letter-spacing: .01em;
+      word-break: break-word;
+      max-width: 98%;
     }
     /* Drawer styles */
     .drawer {
@@ -233,14 +244,14 @@
       font-weight: 500;
       margin-bottom: 2em;
       color: var(--accent);
-      font-size: 1.24em;
+      font-size: 1.16em;
       text-align: left;
       letter-spacing: .03em;
     }
     .menu-times {
       display: flex;
       flex-direction: column;
-      gap: 1.7em;
+      gap: 1.5em;
       margin-bottom: 2em;
     }
     .menu-item {
@@ -248,27 +259,28 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
-      padding-bottom: 1em;
+      padding-bottom: .9em;
       border-bottom: 1px solid var(--menu-divider);
       min-width: 140px;
+      font-size: 1em;
     }
     .menu-item:last-child {
       border-bottom: none;
       padding-bottom: 0;
     }
     .menu-label {
-      font-size: 1.14em;
+      font-size: 1.06em;
       font-weight: 500;
       color: var(--accent);
-      margin-bottom: .2em;
+      margin-bottom: .15em;
       letter-spacing: .03em;
     }
     .menu-value {
-      font-size: 1.11em;
+      font-size: .99em;
       color: var(--text);
       font-weight: 400;
       letter-spacing: .01em;
-      padding-bottom: .2em;
+      padding-bottom: .12em;
     }
     .overlay {
       position: fixed;
@@ -296,6 +308,7 @@
       align-items: center;
       justify-content: center;
       gap: .2em;
+      min-height: 2.5em;
     }
     .footer .heart {
       color: #e57373;
@@ -305,6 +318,12 @@
       display: inline-block;
       animation: heartBeat .9s infinite alternate;
     }
+    .footer .queen {
+      font-size: 1.2em;
+      margin-left: .18em;
+      vertical-align: middle;
+      display: inline-block;
+    }
     @keyframes heartBeat {
       to { transform: scale(1.14); }
     }
@@ -312,12 +331,14 @@
       .container {
         margin-top: 6vh;
         max-width: 97vw;
+        margin-bottom: 7.5em;
       }
       .card {
-        padding: 1.5em;
+        padding: 1em;
+        max-height: 250px;
       }
       select, button[type="submit"] {
-        font-size: 1.13em;
+        font-size: 1.11em;
       }
       .drawer {
         padding: 1.5em .7em 1em .9em;
@@ -359,13 +380,23 @@
         <option value="lonely">Lonely</option>
         <option value="thankful">Thankful</option>
         <option value="seeking-forgiveness">Seeking Forgiveness</option>
+        <option value="content">Content</option>
+        <option value="forgiven">Forgiven</option>
+        <option value="calm">Calm</option>
+        <option value="confident">Confident</option>
+        <option value="patient">Patient</option>
+        <option value="forbearing">Forbearing</option>
+        <option value="trust">Trust</option>
+        <option value="repentant">Repentant</option>
+        <option value="forgiving">Forgiving</option>
+        <option value="generous">Generous</option>
       </select>
-      <button type="submit">Show Guidance</button>
+      <button type="submit">Find Comfort</button>
     </form>
     <div id="result" class="card"></div>
   </div>
   <div class="footer">
-    Made with <span class="heart">&#10084;</span> for Allah
+    Made with <span class="heart">&#10084;</span> for Allah for my <span class="queen">&#x1F478;&#x1F3FB;</span>
   </div>
   <script>
     // Clear cache on load for freshness
@@ -445,18 +476,21 @@
       drawerOverlay.classList.remove('open');
     };
 
-    // Prayer Time Drawer (Qatar)
+    // Prayer Time Drawer (Qatar Ministry API)
     async function getPrayerTimesDrawer() {
       try {
-        const resp = await fetch('https://api.aladhan.com/v1/timingsByCity?city=Doha&country=Qatar&method=2');
+        const resp = await fetch('https://portal.moi.gov.qa/MoiPortalRestServices/rest/prayertimings/today/en');
         const data = await resp.json();
-        const t = data.data.timings;
+        const t = data.todayPrayerTiming;
+        // If the API fails or structure changes, fallback gracefully
+        if (!t) throw new Error('Prayer times unavailable');
         const menuTimes = [
-          { label: "Fajr", value: t.Fajr },
-          { label: "Dhuhr", value: t.Dhuhr },
-          { label: "Asr", value: t.Asr },
-          { label: "Maghrib", value: t.Maghrib },
-          { label: "Isha", value: t.Isha }
+          { label: "Fajr", value: t.fajr },
+          { label: "Sunrise", value: t.sunrise },
+          { label: "Dhuhr", value: t.dhuhr },
+          { label: "Asr", value: t.asr },
+          { label: "Maghrib", value: t.maghrib },
+          { label: "Isha", value: t.isha }
         ];
         document.getElementById('drawerPrayerTimes').innerHTML = menuTimes.map(item =>
           `<div class="menu-item">
