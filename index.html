@@ -18,7 +18,6 @@
       --overlay: rgba(24,27,31,0.85);
       --menu-divider: #22242a;
       --source: #fff;
-      --header-height: 60px;
     }
     html, body {
       height: 100%;
@@ -42,33 +41,33 @@
       background: linear-gradient(135deg, #181b1f 0%, #23262b 100%);
       position: relative;
     }
-    .header {
+    .container {
       width: 100vw;
-      height: var(--header-height);
-      background: var(--card-bg);
-      color: var(--accent);
+      max-width: 100vw;
+      min-height: 100vh;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
+      padding-top: 9vh;
+      padding-bottom: 0;
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+    .topbar {
+      width: 100vw;
+      height: 0;
       position: fixed;
       top: 0;
       left: 0;
-      z-index: 12;
-      padding: 0 0.9em 0 0.5em;
-      box-sizing: border-box;
-    }
-    .header-title {
-      font-size: 1.6rem;
-      font-weight: 500;
-      letter-spacing: .04em;
-      color: var(--accent);
-      margin-left: 0.2em;
-      margin-top: 0.1em;
-      user-select: none;
+      z-index: 10;
     }
     .hamburger {
-      width: 36px;
-      height: 36px;
+      position: absolute;
+      top: 22px;
+      left: 22px;
+      width: 34px;
+      height: 34px;
       background: none;
       border: none;
       display: flex;
@@ -78,30 +77,24 @@
       cursor: pointer;
       z-index: 20;
       padding: 0;
-      margin-right: 0.1em;
     }
     .hamburger span {
       display: block;
-      width: 26px;
+      width: 24px;
       height: 3px;
       background: var(--accent);
       border-radius: 2px;
-      margin: 4px 0;
+      margin: 3px 0;
       transition: all .3s;
     }
-
-    .container {
+    h1 {
+      font-weight: 400;
+      font-size: 2.1rem;
+      margin-bottom: 2.2em;
+      letter-spacing: .02em;
+      color: var(--accent);
       width: 100vw;
-      max-width: 100vw;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      padding-top: calc(var(--header-height) + 4vh);
-      padding-bottom: 0;
-      box-sizing: border-box;
-      overflow-x: hidden;
+      text-align: center;
     }
     .form-wrapper {
       display: flex;
@@ -128,14 +121,13 @@
       outline: none;
       transition: background var(--transition);
       appearance: none;
-      text-align: center;
     }
     select:focus {
       background: var(--card-bg);
     }
     button[type="submit"] {
-      width: 180px;
-      max-width: 70vw;
+      width: 70%;
+      max-width: 210px;
       min-width: 120px;
       padding: 0.62em 0;
       border-radius: 18px;
@@ -164,7 +156,7 @@
       margin-bottom: 2em;
       min-height: 180px;
       max-width: 400px;
-      text-align: center;
+      text-align: left;
       position: relative;
       transition: box-shadow var(--transition), opacity var(--transition), transform var(--transition);
       opacity: 0;
@@ -254,7 +246,7 @@
       position: fixed;
       top: 0; left: 0;
       width: 290px;
-      max-width: 80vw;
+      max-width: 90vw;
       height: 100vh;
       background: var(--card-bg);
       box-shadow: 2px 0 18px #16181c;
@@ -386,7 +378,7 @@
         overflow-x: hidden;
       }
       .container {
-        margin-top: calc(var(--header-height) + 2vh);
+        margin-top: 6vh;
         margin-bottom: 7.5em;
         padding: 0;
       }
@@ -400,24 +392,19 @@
       }
       select, button[type="submit"] {
         font-size: 1.03em;
-        width: 96vw;
+        width: 99vw;
         max-width: none;
       }
       .drawer {
-        width: 80vw;
-        max-width: 80vw;
         padding: 1.5em .7em 1em .9em;
+        width: 93vw;
       }
       .footer { font-size: 1em;}
-      .header-title {
-        font-size: 1.15rem;
-      }
     }
   </style>
 </head>
 <body>
-  <div class="header">
-    <span class="header-title">Serene Verse</span>
+  <div class="topbar">
     <button class="hamburger" id="drawerOpenBtn" aria-label="Open menu">
       <span></span>
       <span></span>
@@ -431,6 +418,7 @@
     <div class="menu-times" id="drawerPrayerTimes"></div>
   </div>
   <div class="container">
+    <h1>Serene Verse</h1>
     <form id="feeling-form" autocomplete="off">
       <div class="form-wrapper">
         <select id="feeling" required>
