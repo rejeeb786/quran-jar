@@ -1,0 +1,648 @@
+[
+  {
+    "type": "verse",
+    "feeling": "sad",
+    "text": "\"So verily, with the hardship, there is relief.\"",
+    "ref": "Quran 94:6",
+    "tafsir": "Allah assures that every hardship is followed by ease."
+  },
+  {
+    "type": "verse",
+    "feeling": "sad",
+    "text": "\"Do not grieve; indeed Allah is with us.\"",
+    "ref": "Quran 9:40",
+    "tafsir": "Allah's support is always present in times of sadness."
+  },
+  {
+    "type": "verse",
+    "feeling": "sad",
+    "text": "\"And He found you lost and guided [you].\"",
+    "ref": "Quran 93:7",
+    "tafsir": "Allah guides those who are lost."
+  },
+  {
+    "type": "verse",
+    "feeling": "sad",
+    "text": "\"And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient.\"",
+    "ref": "Quran 2:155",
+    "tafsir": "Tests are part of life; patience brings good tidings."
+  },
+  {
+    "type": "hadith",
+    "feeling": "sad",
+    "text": "The Prophet (ﷺ) said, \"No fatigue, nor disease, nor sorrow, nor sadness, nor hurt, nor distress befalls a Muslim, even if it were the prick he receives from a thorn, but that Allah expiates some of his sins for that.\"",
+    "ref": "Sahih Bukhari, Book 70, Hadith 545",
+    "tafsir": "Every hardship removes sins."
+  },
+  {
+    "type": "verse",
+    "feeling": "anxious",
+    "text": "\"And whoever puts his trust in Allah, then He will suffice him.\"",
+    "ref": "Quran 65:3",
+    "tafsir": "Reliance on Allah brings tranquility and removes anxiety."
+  },
+  {
+    "type": "verse",
+    "feeling": "anxious",
+    "text": "\"And Allah will be sufficient for you against them.\"",
+    "ref": "Quran 2:137",
+    "tafsir": "Allah protects those who rely on Him."
+  },
+  {
+    "type": "verse",
+    "feeling": "anxious",
+    "text": "\"Indeed, my Lord is near and responsive.\"",
+    "ref": "Quran 11:61",
+    "tafsir": "Allah is always near and answers prayers."
+  },
+  {
+    "type": "hadith",
+    "feeling": "anxious",
+    "text": "The Prophet (ﷺ) said, \"If Allah wants to do good to someone, He afflicts him with trials.\"",
+    "ref": "Sahih Bukhari, Book 70, Hadith 548",
+    "tafsir": "Trials are a sign of Allah's care."
+  },
+  {
+    "type": "verse",
+    "feeling": "hopeful",
+    "text": "\"And do not lose hope in the mercy of Allah. Indeed, none despairs of relief from Allah except the disbelieving people.\"",
+    "ref": "Quran 12:87",
+    "tafsir": "Never lose hope in Allah's mercy."
+  },
+  {
+    "type": "verse",
+    "feeling": "hopeful",
+    "text": "\"Indeed, after hardship will come ease.\"",
+    "ref": "Quran 94:5",
+    "tafsir": "Every difficulty is followed by relief."
+  },
+  {
+    "type": "verse",
+    "feeling": "hopeful",
+    "text": "\"And your Lord is going to give you, and you will be satisfied.\"",
+    "ref": "Quran 93:5",
+    "tafsir": "Allah promises satisfaction and reward."
+  },
+  {
+    "type": "hadith",
+    "feeling": "hopeful",
+    "text": "The Prophet (ﷺ) said, \"None of you should wish for death because of a calamity that has befallen him; but if he must, he should say: O Allah! Keep me alive as long as life is better for me, and let me die if death is better for me.\"",
+    "ref": "Sahih Bukhari, Book 70, Hadith 575",
+    "tafsir": "Patience and trust in Allah are sources of hope."
+  },
+  {
+    "type": "verse",
+    "feeling": "grateful",
+    "text": "\"If you are grateful, I will surely increase your favor upon you.\"",
+    "ref": "Quran 14:7",
+    "tafsir": "Gratitude is rewarded by Allah with more blessings."
+  },
+  {
+    "type": "verse",
+    "feeling": "grateful",
+    "text": "\"And remember when your Lord proclaimed, 'If you give thanks, I will give you more.'\"",
+    "ref": "Quran 14:7",
+    "tafsir": "Thankfulness brings increase."
+  },
+  {
+    "type": "verse",
+    "feeling": "grateful",
+    "text": "\"Eat of the good things which We have provided for you and be grateful to Allah.\"",
+    "ref": "Quran 2:172",
+    "tafsir": "Gratitude for Allah's provisions is a virtue."
+  },
+  {
+    "type": "hadith",
+    "feeling": "grateful",
+    "text": "The Prophet (ﷺ) said, \"He who does not thank people, does not thank Allah.\"",
+    "ref": "Sahih Bukhari, Book 73, Hadith 48",
+    "tafsir": "Gratitude should be shown to people and Allah."
+  },
+  {
+    "type": "verse",
+    "feeling": "angry",
+    "text": "\"And those who restrain anger and pardon people - Allah loves the doers of good.\"",
+    "ref": "Quran 3:134",
+    "tafsir": "Controlling anger is beloved by Allah."
+  },
+  {
+    "type": "verse",
+    "feeling": "angry",
+    "text": "\"Repel evil with that which is better.\"",
+    "ref": "Quran 41:34",
+    "tafsir": "Respond with goodness to anger."
+  },
+  {
+    "type": "hadith",
+    "feeling": "angry",
+    "text": "The Prophet (ﷺ) said, \"The strong is not the one who overcomes people by his strength, but the strong is the one who controls himself while in anger.\"",
+    "ref": "Sahih Bukhari, Book 73, Hadith 135",
+    "tafsir": "True strength lies in self-control, not aggression."
+  },
+  {
+    "type": "verse",
+    "feeling": "lost",
+    "text": "\"And He found you lost and guided [you].\"",
+    "ref": "Quran 93:7",
+    "tafsir": "Allah guides those who are lost."
+  },
+  {
+    "type": "verse",
+    "feeling": "lost",
+    "text": "\"Our Lord, let not our hearts deviate after You have guided us.\"",
+    "ref": "Quran 3:8",
+    "tafsir": "A prayer for steadfastness in guidance."
+  },
+  {
+    "type": "verse",
+    "feeling": "lost",
+    "text": "\"Say, 'Indeed, my prayer, my rites of sacrifice, my living and my dying are for Allah, Lord of the worlds.'\"",
+    "ref": "Quran 6:162",
+    "tafsir": "Dedicate all your actions to Allah for guidance."
+  },
+  {
+    "type": "hadith",
+    "feeling": "lost",
+    "text": "The Prophet (ﷺ) used to say, \"O Allah! Set right my religion which is the safeguard of my affairs...\"",
+    "ref": "Sahih Bukhari, Book 80, Hadith 724",
+    "tafsir": "Supplication for guidance is encouraged."
+  },
+  {
+    "type": "verse",
+    "feeling": "fearful",
+    "text": "\"Do not fear, I am with you, I hear and I see.\"",
+    "ref": "Quran 20:46",
+    "tafsir": "Allah's presence should eliminate fear."
+  },
+  {
+    "type": "verse",
+    "feeling": "fearful",
+    "text": "\"But Allah is your protector, and He is the best of helpers.\"",
+    "ref": "Quran 3:150",
+    "tafsir": "Allah protects and helps the believer."
+  },
+  {
+    "type": "verse",
+    "feeling": "fearful",
+    "text": "\"Allah is the ally of those who believe. He brings them out from darknesses into the light.\"",
+    "ref": "Quran 2:257",
+    "tafsir": "Belief brings Allah's protection."
+  },
+  {
+    "type": "hadith",
+    "feeling": "fearful",
+    "text": "The Prophet (ﷺ) said, \"Whoever says, 'None has the right to be worshipped but Allah alone,' Allah will protect him from every evil.\"",
+    "ref": "Sahih Bukhari, Book 80, Hadith 747",
+    "tafsir": "Remembrance of Allah protects from harm."
+  },
+  {
+    "type": "verse",
+    "feeling": "happy",
+    "text": "\"Say: 'In the bounty of Allah and in His mercy — in that let them rejoice; it is better than what they accumulate.'\"",
+    "ref": "Quran 10:58",
+    "tafsir": "True happiness is found in Allah's mercy and bounty."
+  },
+  {
+    "type": "verse",
+    "feeling": "happy",
+    "text": "\"And He gave you from all you asked of Him.\"",
+    "ref": "Quran 14:34",
+    "tafsir": "Recognize Allah's blessings as a source of happiness."
+  },
+  {
+    "type": "verse",
+    "feeling": "happy",
+    "text": "\"For them are good tidings in the worldly life and in the Hereafter.\"",
+    "ref": "Quran 10:64",
+    "tafsir": "Believers receive glad tidings in this life and the next."
+  },
+  {
+    "type": "hadith",
+    "feeling": "happy",
+    "text": "The Prophet (ﷺ) said, \"He who is content with Allah as his Lord, with Islam as his religion and with Muhammad (ﷺ) as his Prophet, Allah will admit him to Paradise.\"",
+    "ref": "Sahih Bukhari, Book 76, Hadith 474",
+    "tafsir": "Contentment brings happiness and Paradise."
+  },
+  {
+    "type": "verse",
+    "feeling": "seeking-guidance",
+    "text": "\"Guide us to the straight path.\"",
+    "ref": "Quran 1:6",
+    "tafsir": "A prayer for guidance, repeated every prayer."
+  },
+  {
+    "type": "verse",
+    "feeling": "seeking-guidance",
+    "text": "\"And say, 'My Lord, increase me in knowledge.'\"",
+    "ref": "Quran 20:114",
+    "tafsir": "Seeking knowledge is a path to guidance."
+  },
+  {
+    "type": "verse",
+    "feeling": "seeking-guidance",
+    "text": "\"And whoever Allah guides - he is rightly guided; and whoever He allows to stray - you will never find for them protectors besides Him.\"",
+    "ref": "Quran 17:97",
+    "tafsir": "True guidance is from Allah alone."
+  },
+  {
+    "type": "hadith",
+    "feeling": "seeking-guidance",
+    "text": "The Prophet (ﷺ) said, \"When any one of you prays, let him begin by praising Allah, then invoke blessings on the Prophet, and then supplicate for whatever he wishes.\"",
+    "ref": "Sahih Bukhari, Book 80, Hadith 747",
+    "tafsir": "Supplication is a means to guidance."
+  },
+  {
+    "type": "verse",
+    "feeling": "stressed",
+    "text": "\"Allah does not burden a soul beyond that it can bear.\"",
+    "ref": "Quran 2:286",
+    "tafsir": "You will never face more than you can handle."
+  },
+  {
+    "type": "verse",
+    "feeling": "stressed",
+    "text": "\"And We have certainly created man and We know what his soul whispers to him, and We are closer to him than [his] jugular vein.\"",
+    "ref": "Quran 50:16",
+    "tafsir": "Allah knows your struggles intimately."
+  },
+  {
+    "type": "verse",
+    "feeling": "stressed",
+    "text": "\"And seek help through patience and prayer, and indeed, it is difficult except for the humbly submissive [to Allah].\"",
+    "ref": "Quran 2:45",
+    "tafsir": "Patience and prayer are keys to relief."
+  },
+  {
+    "type": "hadith",
+    "feeling": "stressed",
+    "text": "The Prophet (ﷺ) said, \"The most severely tested people are the prophets, then the next best, and then the next best.\"",
+    "ref": "Sahih Bukhari, Book 60, Hadith 49",
+    "tafsir": "Trials are faced by those closest to Allah."
+  }
+,
+  {
+    "type": "verse",
+    "feeling": "lonely",
+    "text": "\"And He is with you wherever you are.\"",
+    "ref": "Quran 57:4",
+    "tafsir": "Allah is always with you, even in loneliness."
+  },
+  {
+    "type": "verse",
+    "feeling": "lonely",
+    "text": "\"Your ally is Allah and His Messenger and those who have believed.\"",
+    "ref": "Quran 5:55",
+    "tafsir": "Believers are never truly alone."
+  },
+  {
+    "type": "verse",
+    "feeling": "lonely",
+    "text": "\"And rely upon the Ever-Living who does not die.\"",
+    "ref": "Quran 25:58",
+    "tafsir": "Allah's companionship never ends."
+  },
+  {
+    "type": "hadith",
+    "feeling": "lonely",
+    "text": "The Prophet (ﷺ) said, \"A believer is like a brick for another believer, the one supporting the other.\"",
+    "ref": "Sahih Bukhari, Book 8, Hadith 468",
+    "tafsir": "Believers should seek support in one another."
+  },
+  {
+    "type": "verse",
+    "feeling": "thankful",
+    "text": "\"If you are grateful, I will surely increase your favor upon you.\"",
+    "ref": "Quran 14:7",
+    "tafsir": "Thankfulness brings more blessings from Allah."
+  },
+  {
+    "type": "verse",
+    "feeling": "thankful",
+    "text": "\"Whatever of blessings and good things you have, it is from Allah.\"",
+    "ref": "Quran 16:53",
+    "tafsir": "Recognize all blessings as from Allah."
+  },
+  {
+    "type": "verse",
+    "feeling": "thankful",
+    "text": "\"And remember the favor of Allah upon you.\"",
+    "ref": "Quran 5:7",
+    "tafsir": "Reflect on Allah's favors with gratitude."
+  },
+  {
+    "type": "hadith",
+    "feeling": "thankful",
+    "text": "The Prophet (ﷺ) said, \"He who does not thank people, does not thank Allah.\"",
+    "ref": "Sahih Bukhari, Book 73, Hadith 48",
+    "tafsir": "Expressing gratitude is a form of worship."
+  },
+  {
+    "type": "verse",
+    "feeling": "seeking-forgiveness",
+    "text": "\"And seek forgiveness of your Lord and repent to Him.\"",
+    "ref": "Quran 11:3",
+    "tafsir": "Forgiveness is always available, just ask and repent."
+  },
+  {
+    "type": "verse",
+    "feeling": "seeking-forgiveness",
+    "text": "\"And whoever does evil or wrongs himself but afterwards seeks Allah's forgiveness, he will find Allah Oft-Forgiving, Most Merciful.\"",
+    "ref": "Quran 4:110",
+    "tafsir": "Repentance brings Allah's mercy."
+  },
+  {
+    "type": "verse",
+    "feeling": "seeking-forgiveness",
+    "text": "\"Indeed, Allah loves those who are constantly repentant and loves those who purify themselves.\"",
+    "ref": "Quran 2:222",
+    "tafsir": "Allah loves those who seek forgiveness."
+  },
+  {
+    "type": "hadith",
+    "feeling": "seeking-forgiveness",
+    "text": "The Prophet (ﷺ) said, \"By Allah, I seek forgiveness from Allah and turn to Him in repentance more than seventy times a day.\"",
+    "ref": "Sahih Bukhari, Book 75, Hadith 319",
+    "tafsir": "Frequent repentance is a prophetic practice."
+  },
+  {
+    "type": "verse",
+    "feeling": "content",
+    "text": "\"And be patient, for indeed, Allah does not allow to be lost the reward of those who do good.\"",
+    "ref": "Quran 11:115",
+    "tafsir": "Patience brings contentment and reward."
+  },
+  {
+    "type": "verse",
+    "feeling": "content",
+    "text": "\"Indeed, the mercy of Allah is near to the doers of good.\"",
+    "ref": "Quran 7:56",
+    "tafsir": "Contentment comes from knowing Allah's mercy is near."
+  },
+  {
+    "type": "verse",
+    "feeling": "content",
+    "text": "\"Whoever does righteousness, whether male or female, while he is a believer - We will surely cause him to live a good life.\"",
+    "ref": "Quran 16:97",
+    "tafsir": "A good life is a reward for righteousness."
+  },
+  {
+    "type": "hadith",
+    "feeling": "content",
+    "text": "The Prophet (ﷺ) said, \"Richness is not having many possessions, but richness is being content with oneself.\"",
+    "ref": "Sahih Bukhari, Book 76, Hadith 453",
+    "tafsir": "True wealth is inner contentment."
+  },
+  {
+    "type": "verse",
+    "feeling": "forgiven",
+    "text": "\"But Allah is the bestower of favor to you.\"",
+    "ref": "Quran 4:113",
+    "tafsir": "Allah forgives and gives favor."
+  },
+  {
+    "type": "verse",
+    "feeling": "forgiven",
+    "text": "\"Say, 'O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah.'\"",
+    "ref": "Quran 39:53",
+    "tafsir": "Allah's mercy encompasses all sins."
+  },
+  {
+    "type": "verse",
+    "feeling": "forgiven",
+    "text": "\"And He it is Who accepts repentance from His servants and pardons misdeeds.\"",
+    "ref": "Quran 42:25",
+    "tafsir": "Allah is the Acceptor of repentance."
+  },
+  {
+    "type": "hadith",
+    "feeling": "forgiven",
+    "text": "The Prophet (ﷺ) said, \"Allah is more pleased with the repentance of His servant than a person who lost his camel in the desert and then finds it.\"",
+    "ref": "Sahih Bukhari, Book 75, Hadith 321",
+    "tafsir": "Allah loves when His servants repent."
+  },
+  {
+    "type": "verse",
+    "feeling": "calm",
+    "text": "\"Unquestionably, by the remembrance of Allah hearts are assured.\"",
+    "ref": "Quran 13:28",
+    "tafsir": "Remembrance of Allah brings calmness."
+  },
+  {
+    "type": "verse",
+    "feeling": "calm",
+    "text": "\"He it is Who sent down tranquility into the hearts of the believers.\"",
+    "ref": "Quran 48:4",
+    "tafsir": "Allah grants calm to the believers."
+  },
+  {
+    "type": "verse",
+    "feeling": "calm",
+    "text": "\"And We made their hearts firm and strong.\"",
+    "ref": "Quran 18:14",
+    "tafsir": "Allah strengthens hearts in times of distress."
+  },
+  {
+    "type": "hadith",
+    "feeling": "calm",
+    "text": "The Prophet (ﷺ) said, \"The best among you are those whose character is best.\"",
+    "ref": "Sahih Bukhari, Book 73, Hadith 56",
+    "tafsir": "Calmness is part of good character."
+  },
+  {
+    "type": "verse",
+    "feeling": "confident",
+    "text": "\"If Allah helps you, none can overcome you; but if He forsakes you, who is there that can help you after Him?\"",
+    "ref": "Quran 3:160",
+    "tafsir": "Confidence comes from Allah's help."
+  },
+  {
+    "type": "verse",
+    "feeling": "confident",
+    "text": "\"And rely upon Allah; and sufficient is Allah as Disposer of affairs.\"",
+    "ref": "Quran 33:3",
+    "tafsir": "Trust in Allah brings confidence."
+  },
+  {
+    "type": "verse",
+    "feeling": "confident",
+    "text": "\"So do not weaken and do not grieve, and you will be superior if you are [true] believers.\"",
+    "ref": "Quran 3:139",
+    "tafsir": "Believers should always feel confident."
+  },
+  {
+    "type": "hadith",
+    "feeling": "confident",
+    "text": "The Prophet (ﷺ) said, \"If you ask, ask Allah; if you seek help, seek help from Allah.\"",
+    "ref": "Sahih Bukhari, Book 76, Hadith 474",
+    "tafsir": "Confidence is in seeking Allah's help."
+  },
+  {
+    "type": "verse",
+    "feeling": "patient",
+    "text": "\"Indeed, Allah is with the patient.\"",
+    "ref": "Quran 2:153",
+    "tafsir": "Allah supports those who are patient."
+  },
+  {
+    "type": "verse",
+    "feeling": "patient",
+    "text": "\"And be patient, for patience is from Allah.\"",
+    "ref": "Quran 16:127",
+    "tafsir": "Patience is a divine gift."
+  },
+  {
+    "type": "verse",
+    "feeling": "patient",
+    "text": "\"So be patient. Indeed, the promise of Allah is truth.\"",
+    "ref": "Quran 30:60",
+    "tafsir": "Patience in waiting for Allah's promise."
+  },
+  {
+    "type": "hadith",
+    "feeling": "patient",
+    "text": "The Prophet (ﷺ) said, \"Whoever remains patient, Allah will make him patient. Nobody can be given a blessing better and greater than patience.\"",
+    "ref": "Sahih Bukhari, Book 76, Hadith 477",
+    "tafsir": "Patience is the greatest blessing."
+  }
+,
+  {
+    "type": "verse",
+    "feeling": "forbearing",
+    "text": "\"And whoever is patient and forgives – indeed, that is of the matters [requiring] determination.\"",
+    "ref": "Quran 42:43",
+    "tafsir": "Forgiveness and patience are noble qualities."
+  },
+  {
+    "type": "verse",
+    "feeling": "forbearing",
+    "text": "\"And let them pardon and overlook. Would you not like that Allah should forgive you?\"",
+    "ref": "Quran 24:22",
+    "tafsir": "Forgiveness is rewarded by Allah's forgiveness."
+  },
+  {
+    "type": "verse",
+    "feeling": "forbearing",
+    "text": "\"Good and evil cannot be equal. Repel evil with what is better.\"",
+    "ref": "Quran 41:34",
+    "tafsir": "Responding to wrong with goodness is true forbearance."
+  },
+  {
+    "type": "hadith",
+    "feeling": "forbearing",
+    "text": "The Prophet (ﷺ) said, \"Whoever does not show mercy will not be shown mercy.\"",
+    "ref": "Sahih Bukhari, Book 73, Hadith 42",
+    "tafsir": "Mercy and forbearance bring Allah's mercy."
+  },
+  {
+    "type": "verse",
+    "feeling": "trust",
+    "text": "\"And put your trust in Allah; and sufficient is Allah as a Trustee.\"",
+    "ref": "Quran 33:3",
+    "tafsir": "Trusting Allah is sufficient for all affairs."
+  },
+  {
+    "type": "verse",
+    "feeling": "trust",
+    "text": "\"And He is the best Disposer of affairs.\"",
+    "ref": "Quran 3:173",
+    "tafsir": "Allah is the best to manage our concerns."
+  },
+  {
+    "type": "verse",
+    "feeling": "trust",
+    "text": "\"But if they turn away, say: Allah is sufficient for me.\"",
+    "ref": "Quran 9:129",
+    "tafsir": "Allah alone suffices for those who trust Him."
+  },
+  {
+    "type": "hadith",
+    "feeling": "trust",
+    "text": "The Prophet (ﷺ) said, \"If you were to rely upon Allah with the reliance He is due, you would be given provision like the birds: They go out hungry in the morning and return full in the evening.\"",
+    "ref": "Sahih Bukhari, Book 76, Hadith 470",
+    "tafsir": "True reliance on Allah brings provision."
+  },
+  {
+    "type": "verse",
+    "feeling": "repentant",
+    "text": "\"And turn to Allah in repentance, all of you, O believers, that you might succeed.\"",
+    "ref": "Quran 24:31",
+    "tafsir": "Repentance leads to true success."
+  },
+  {
+    "type": "verse",
+    "feeling": "repentant",
+    "text": "\"But Allah would not punish them while they seek forgiveness.\"",
+    "ref": "Quran 8:33",
+    "tafsir": "Seeking forgiveness protects from punishment."
+  },
+  {
+    "type": "verse",
+    "feeling": "repentant",
+    "text": "\"Say: 'O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah.'\"",
+    "ref": "Quran 39:53",
+    "tafsir": "No sin is too great for Allah's mercy."
+  },
+  {
+    "type": "hadith",
+    "feeling": "repentant",
+    "text": "The Prophet (ﷺ) said, \"Allah accepts the repentance of a servant as long as his spirit has not departed.\"",
+    "ref": "Sahih Bukhari, Book 76, Hadith 493",
+    "tafsir": "Repentance is accepted until the end of life."
+  },
+  {
+    "type": "verse",
+    "feeling": "forgiving",
+    "text": "\"And the retribution for an evil act is an evil one like it, but whoever pardons and makes reconciliation - his reward is [due] from Allah.\"",
+    "ref": "Quran 42:40",
+    "tafsir": "Forgiveness and reconciliation earn Allah's reward."
+  },
+  {
+    "type": "verse",
+    "feeling": "forgiving",
+    "text": "\"And let them pardon and overlook. Would you not like that Allah should forgive you?\"",
+    "ref": "Quran 24:22",
+    "tafsir": "Forgive others so Allah will forgive you."
+  },
+  {
+    "type": "verse",
+    "feeling": "forgiving",
+    "text": "\"And whoever pardons and makes reconciliation, his reward is from Allah.\"",
+    "ref": "Quran 42:40",
+    "tafsir": "Allah rewards those who forgive."
+  },
+  {
+    "type": "hadith",
+    "feeling": "forgiving",
+    "text": "The Prophet (ﷺ) said, \"He who forgives, Allah will raise his status.\"",
+    "ref": "Sahih Bukhari, Book 73, Hadith 40",
+    "tafsir": "Forgiveness elevates one's status with Allah."
+  },
+  {
+    "type": "verse",
+    "feeling": "generous",
+    "text": "\"The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains.\"",
+    "ref": "Quran 2:261",
+    "tafsir": "Generosity multiplies blessings."
+  },
+  {
+    "type": "verse",
+    "feeling": "generous",
+    "text": "\"You will never attain righteousness until you spend from that which you love.\"",
+    "ref": "Quran 3:92",
+    "tafsir": "True generosity is giving what you cherish."
+  },
+  {
+    "type": "verse",
+    "feeling": "generous",
+    "text": "\"And whatever you spend in good, it will be repaid to you in full.\"",
+    "ref": "Quran 2:272",
+    "tafsir": "Allah repays generosity in full."
+  },
+  {
+    "type": "hadith",
+    "feeling": "generous",
+    "text": "The Prophet (ﷺ) said, \"Charity does not decrease wealth.\"",
+    "ref": "Sahih Bukhari, Book 73, Hadith 41",
+    "tafsir": "Giving charity increases blessings."
+  }
+]
