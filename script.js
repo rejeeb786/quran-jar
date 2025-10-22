@@ -31,7 +31,7 @@ function openMood(id){
 function showVerse(){
   const v = current.mood.verses[current.idx];
   arabic.textContent=v.arabic;
-  translation.innerHTML=<strong>${v.translation}</strong><p style="margin-top:6px">${v.reflection}</p>;
+  
   card.style.display='block';
 }
 
@@ -55,3 +55,4 @@ document.getElementById('shareBtn').onclick=()=>{
   else navigator.clipboard.writeText(text).then(()=>alert('Copied to clipboard'));
 
 };
+
