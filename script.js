@@ -2,7 +2,7 @@ let data = {};
 let current = {mood:null, idx:0};
 
 // Load moods.json
-fetch('moods.json')
+fetch('./moods.json')
   .then(res=>res.json())
   .then(json=>{
     data=json;
@@ -53,4 +53,5 @@ document.getElementById('shareBtn').onclick=()=>{
   const text = ${v.translation}\n\n— Reflection: ${v.reflection};
   if(navigator.share) navigator.share({text}).catch(()=>navigator.clipboard.writeText(text));
   else navigator.clipboard.writeText(text).then(()=>alert('Copied to clipboard'));
+
 };
