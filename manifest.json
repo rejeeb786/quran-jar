@@ -1,0 +1,21 @@
+{
+  "name": "Serene Verse",
+  "short_name": "SereneVerse",
+  "description": "Minimal, peaceful Quranic inspiration",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#181b1f",
+  "theme_color": "#6caee0",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
